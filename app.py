@@ -22,7 +22,7 @@ def chat():
 
     response = co.chat(
         message=user_input,
-        model="command-r-plus",  # Cohere’s top model
+        model="command-r-08-2024",  # Cohere’s top model
         temperature=0.5
     )
 
